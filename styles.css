@@ -1,0 +1,96 @@
+<style type="text/css">
+	.t {
+        color:  green;
+    }
+	body{
+	        background-color: black;
+	        font-family: sans-serif;
+	    }
+	.topnav {
+	      overflow: hidden;
+	      position: fixed;
+	      background-color: black;
+	      width: 88%;
+	      display: inline-block;
+	    }
+	.topnav a {
+	  float: right;
+	  padding: 10px 10px;
+	  color: white;
+	  font-size: 20px;
+	  text-decoration: none;
+	}
+	.topnav a:hover {
+	  background-color:grey;
+	}
+	.bannertxt{
+        position: relative;
+    }
+  .centered {
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  .about_button{
+  	background-color: #6b9ff2;
+  	color: white;
+  	font-size: 150%;
+  	border-radius: 40px;
+  	border-color: #6b9ff2;
+  	cursor: pointer;
+  }
+  .whoweare{
+  	background-color: white;
+  	color: black;
+  }
+  .column {
+  	margin-right: -4%;
+	  float: left;
+	  width: 20%;
+	}
+	.row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	ul li {
+    margin-bottom: 8px;
+	}
+	tr{
+		margin-left: 250px;
+	}
+	.ulList {
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+    margin-right: 38px;
+	}
+	#ul1 {
+      float:left;
+      margin-left:-80px;
+      padding: 10px;
+      width:  30%;
+      color:  white;
+  }
+  #ul2 {
+    float:right;
+    padding: 10px;
+    width:  30%;
+    color:  white;
+	}
+	#ul3{
+			margin-left: 450px;
+	    padding: 10px;
+	    width:  30%;
+	    color:  white;
+	}
+  #footnote{
+  	background-color: black;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    padding-left: 70%;
+  }
+</style>
